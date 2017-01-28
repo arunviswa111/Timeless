@@ -54,7 +54,7 @@
 <!--Pulling Awesome Font -->
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
  <div id="Login">
-<form action="validate" method="post">
+<form action="perform_login" method="post" role="form">
 <div class="container">
     <div class="row">
     	<div class="col-md-4 col-md-offset-4">
@@ -66,10 +66,10 @@
 			    	<form accept-charset="UTF-8" role="form">
                     <fieldset>
 			    	  	<div class="form-group">
-			    		    <input class="form-control" placeholder="userid" name="Userid" type="text">
+			    		    <input class="form-control" placeholder="userid" name="username" type="text">
 			    		</div>
 			    		<div class="form-group">
-			    			<input class="form-control" placeholder="Password" name="Password" type="password">
+			    			<input class="form-control" placeholder="Password" name="password" type="password">
 			    		</div>
 			    		<div class="checkbox">
 			    	    	<label>

@@ -32,7 +32,13 @@ p1
       <!-- Username -->
      <l1> <label class="control-label"  for="username">Username</label></l1>
       <div class="controls">
-      <l1>  <input type="text" id="Userid" name="Userid" placeholder="" class="input-xlarge" required=""></l1>
+      <l1>  <input type="text" id="Userid" name="username" placeholder="" class="input-xlarge" required=""></l1>
+       
+      </div>
+ <!-- Username -->
+     <l1> <label class="control-label"  for="name">Name</label></l1>
+      <div class="controls">
+      <l1>  <input type="text" id="name" name="name" placeholder="" class="input-xlarge" required=""></l1>
        
       </div>
     </div>
@@ -46,20 +52,14 @@ p1
       </div>
     </div>
     <div class="control-group">
-    <!-- gender 
    
-     <l1> <label class="control-label" for="phone">Gender</label></l1>
-      <div class="controls">
-       <l1> <input type="radio" id="gender" name="gender" value=" male" placeholder="" class="input-xlarge" required="">Male</l1>
-        </div>
-        </div> -->
     
     
     <div class="control-group">
       <!-- phone -->
      <l1> <label class="control-label" for="phone">Mobile</label></l1>
       <div class="controls">
-       <l1> <input type="text" id="phone" name="phone" placeholder="" class="input-xlarge" required=""></l1>
+       <l1> <input type="text" id="phone" name="Phone" placeholder="" class="input-xlarge" required=""></l1>
        
       </div>
     </div>
@@ -75,9 +75,9 @@ p1
  
     <div class="control-group">
       <!-- Password -->
-      <l1>  <label class="control-label"  for="password_confirm">Password (Confirm)</label></l1>  
+      <l1>  <label class="control-label"  for="address">Address</label></l1>  
       <div class="controls">
-        <l1>  <input type="password" id="password_confirm" name="password_confirm" placeholder="" class="input-xlarge" required=""></l1>  
+        <l1>  <input type="password" id="address" name="address" placeholder="" class="input-xlarge" required=""></l1>  
         
       </div>
     </div>
